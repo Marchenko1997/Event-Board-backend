@@ -31,11 +31,12 @@ npm run start:dev
 ```
 ## **[Swagger](https://event-board-backend.onrender.com/api-docs/)**
 
-# Developer
+## Contact information
 
-Viktoriia Cherkashyna
-[![GitHub](https://www.vectorlogo.zone/logos/github/github-icon.svg)](https://github.com/Marchenko1997)
-[![LinkedIn](https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg)](https://www.linkedin.com/in/halyna-marchenko/)
+- Halyna Marchenko
+
+- email: marchenkohalyna888@gmail.com
+- Linkedin: https://www.linkedin.com/in/halyna-marchenko/
 
 ```
 
