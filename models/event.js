@@ -2,6 +2,7 @@ const { Schema, model } = require('mongoose');
 
 const eventSchema = new Schema(
   {
+    _id: { type: String },
     title: {
       type: String,
     },
@@ -18,9 +19,9 @@ const eventSchema = new Schema(
       type: String,
     },
   },
-  { timestamps: true, versionKey: false },
+  { timestamps: true, versionKey: false, collection: 'events' }, // Явно указываем коллекцию
 );
 
-const Event = model('events', eventSchema);
+const Event = model('Event', eventSchema);
 
 module.exports = { Event };
