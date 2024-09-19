@@ -1,0 +1,9 @@
+# render.yaml
+services:
+  - type: web
+    name: event-api
+    env: node
+    plan: free
+    buildCommand: 'npm install'
+    startCommand: 'node app.js'
+    branch: main
